@@ -12,7 +12,7 @@ function nowServing(katzdeli){
     i++;
   }
  if( katzDeli.length === 0){
-   else
+
    return "There is nobody waiting to be served!";
   }else{
     console.log(`Currently serving ${katzDeli.shift()}.`);
