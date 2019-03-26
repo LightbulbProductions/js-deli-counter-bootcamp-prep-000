@@ -15,7 +15,7 @@ function nowServing(katzdeli){
 
    return "There is nobody waiting to be served!";
   }else{
-    console.log(`Currently serving ${katzDeli.shift()}.`);
+    return(`Currently serving ${katzDeli.shift()}.`);
    }
 }
 var line = [];
