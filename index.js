@@ -1,12 +1,12 @@
-var katzDeliLine=[];                  
+var katzDeli=[];                  
 
-function takeANumber(katzDeliLine, name = "Guest"){
-    katzDeliLine.push(name)
-    console.log(`Welcome,${name}. You are number ${katzDeliLine.length} in line.`);
-    return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
+function takeANumber(katzDeli, name = "Guest"){
+    katzDeli.push(name)
+    console.log(`Welcome,${name}. You are number ${katzDeli.length} in line.`);
+    return `Welcome, ${name}. You are number ${katzDeli.length} in line.`;
 }
 
-function nowServing(line){
+function nowServing(katdeli){
  if( line.length === 0){
    //console.log("There is nobody waiting to be //served!");
    return "There is nobody waiting to be served!";
