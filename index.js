@@ -21,13 +21,12 @@ function nowServing(katzDeli){
 var line = [];
 function currentLine(line){
   if(line.length === 0){
-    console.log("Line is currently empty");
+    return "Line is currently empty";
   }else{
     var newLine = [],i;
     for(i=0; i < line.length; i++){
       newLine.push(` ${i+1}. ${line[i]}`);
     }
-    console.log(`The line is currently:${newLine}`);
     return `The line is currently:${newLine}`;
   }
 }
