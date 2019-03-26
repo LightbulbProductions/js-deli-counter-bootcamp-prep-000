@@ -7,7 +7,7 @@ function takeANumber(katzDeli, name = "Guest"){
 }
 
 function nowServing(katzdeli){
-  let  i
+  let i = 0;
  if( line.length === 0){
    //console.log("There is nobody waiting to be //served!");
    return "There is nobody waiting to be served!";
