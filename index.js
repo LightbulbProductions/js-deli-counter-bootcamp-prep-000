@@ -6,7 +6,7 @@ function takeANumber(katzDeli, name = "Guest"){
     return `Welcome, ${name}. You are number ${katzDeli.length} in line.`;
 }
 
-function nowServing(katzdeli){
+function nowServing(katzDeli){
   let i = 0;
    while (i < katzDeli.length) {
     i++;
