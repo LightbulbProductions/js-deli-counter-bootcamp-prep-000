@@ -18,7 +18,7 @@ function nowServing(katzdeli){
     console.log(`Currently serving ${katzDeli.shift()}.`);
    }
 }
-var line [];
+var line = [];
 function currentLine(line){
   if(line.length === 0){
     console.log("Line is currently empty");
